@@ -1,0 +1,17 @@
+lib{linalg}: upstream/linalg/hxx{linalg} #hxx{version}
+
+# Export options.
+#
+lib{linalg}:
+{
+  cxx.export.poptions = "-I$src_root/linalg/upstream"
+}
+
+# Install into the linalg/ subdirectory of, say, /usr/include/
+# recreating subdirectories.
+#
+{hxx}{*}:
+{
+  install         = include/linalg/
+  install.subdirs = true
+}

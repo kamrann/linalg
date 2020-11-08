@@ -1,0 +1,6 @@
+$out_root/
+{
+  include linalg/
+}
+
+export $out_root/linalg/$import.target

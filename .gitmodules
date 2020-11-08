@@ -1,0 +1,3 @@
+[submodule "linalg/upstream/linalg"]
+	path = linalg/upstream/linalg
+	url = https://github.com/sgorsten/linalg.git
