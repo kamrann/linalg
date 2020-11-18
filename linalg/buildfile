@@ -14,7 +14,7 @@ upstream/linalg/
 {
   {hxx}{*}:
   {
-    install         = include/
+    install         = include/linalg/
     install.subdirs = true
   }
 }

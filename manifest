@@ -1,6 +1,6 @@
 : 1
 name: linalg
-version: 2.2.0-a.1
+version: 2.2.0-a.2
 upstream-version: 2.2.0
 summary: linalg.h is a single header, public domain, short vector math library for C++.
 license: Unlicense          ; The Unlicense (public domain)
